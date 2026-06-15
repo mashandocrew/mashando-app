@@ -1101,7 +1101,7 @@ async function initAuth(){
   });
 }
 async function loginWithGoogle(){
-  const{error}=await db.auth.signInWithOAuth({provider:'google',options:{redirectTo:window.location.href}});
+  const{error}=await db.auth.signInWithOAuth({provider:'google',options:{redirectTo:'https://mashandocrew.github.io/mashando-app'}});
   if(error) showToast('Error al iniciar sesión');
 }
 async function logout(){ await db.auth.signOut(); }

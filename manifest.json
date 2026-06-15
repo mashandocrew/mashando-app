@@ -1,0 +1,20 @@
+{
+  "name": "Mashando Crew — Gestión",
+  "short_name": "MSC App",
+  "description": "Sistema de gestión interno de Mashando Crew",
+  "start_url": "/mashando-app/",
+  "display": "standalone",
+  "background_color": "#2d1f3d",
+  "theme_color": "#f5a623",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "es"
+}

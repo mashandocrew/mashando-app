@@ -4,8 +4,8 @@
   "description": "Sistema de gestión interno de Mashando Crew",
   "start_url": "/mashando-app/",
   "display": "standalone",
-  "background_color": "#2d1f3d",
-  "theme_color": "#f5a623",
+  "background_color": "#1e1428",
+  "theme_color": "#1e1428",
   "orientation": "portrait",
   "icons": [
     {

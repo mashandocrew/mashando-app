@@ -1151,6 +1151,9 @@ function showView(id,sidebarEl,bnId){
   const[t,s]=viewTitles[id];
   document.getElementById('topbar-title').textContent=t;
   document.getElementById('topbar-sub').textContent=s;
+  // Ocultar el FAB en el Asistente IA: se superpone con el botón de enviar
+  const fab=document.getElementById('fab-btn');
+  if(fab){ if(id==='ia') fab.style.setProperty('display','none','important'); else fab.style.removeProperty('display'); }
   closeSidebar();
   if(id==='dashboard') renderDashboard();
   if(id==='cocina') loadCocina();
